@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-blue-900
+  }
+  input {
+    @apply rounded-lg p-1 
+  }
+  p {
+    @apply mb-[6px] text-white
+  }
+}
